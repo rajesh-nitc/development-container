@@ -1,5 +1,5 @@
+# debian_component_based image includes additional gcloud components
 FROM gcr.io/google.com/cloudsdktool/cloud-sdk:debian_component_based
-LABEL maintainer "Rajesh Gupta <rajesh.nitc@gmail.com>"
 
 ARG TERRAFORM_VERSION=1.0.4
 ARG TERRAFORM_DOCS_VERSION=0.10.1
